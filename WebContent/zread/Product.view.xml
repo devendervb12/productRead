@@ -1,0 +1,22 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		xmlns:sf="sap.ui.layout.form"
+		controllerName="zread.Product" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Product Details">
+		<content>
+	          <sf:SimpleForm id="idSf">
+	              <Label text="Product ID"/>
+	              <Input value="{ProductID}"/>
+	              
+	              <Label text="Name"/>
+	              <Input value="{Name}"/>
+	              
+	              <Label text="Category"/>
+	              <Input value="{Category}"/>
+	              
+	              <Label text="Supplier ID"/>
+	              <Input value="{SupplierID}"/>
+	              
+	          </sf:SimpleForm>
+		</content>
+	</Page>
+</core:View>
